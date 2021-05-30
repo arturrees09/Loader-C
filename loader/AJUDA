@@ -1,0 +1,23 @@
+Uso: ./loader [OPÇÕES] [IMAGENS]
+Saída em arquivos terminados em "-out.html"
+
+Opções:
+  -term			Saída no terminal ao invés de em arquivos HTML.
+
+  -width INTEIRO	Tamanho dos caracteres por pixel da imagem. Padrão: 3x5
+  -height INTEIRO
+
+  -scale INTEIRO	Fator de multiplicação do tamanho dos caracteres. Padrão: 1
+
+  -pallete NOME		Escolhe a paleta de caracteres desejada.
+			Paletas disponíveis:
+			ascii10:   .:-=+*#%@
+			ascii70:   .'`^",:;Il!i~+_-?][}{1)(|/tfjrxnuvczXYUJCLQ0OZmwqpdbkhao*#MW8%B@$
+			unishade:  ░▒▓█
+			unibox:    ▁▂▃▄▅▆▇█
+			Padrão: ascii10
+
+  -custom "SEQUÊNCIA"	Paleta de caracteres customizada.
+
+  -help			Mostra essa informação de ajuda.
+
